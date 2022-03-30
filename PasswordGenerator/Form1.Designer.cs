@@ -138,8 +138,7 @@
             this.metroTextBoxClipboard.UseSelectable = true;
             this.metroTextBoxClipboard.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBoxClipboard.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            this.metroTextBoxClipboard.Click += new System.EventHandler(this.metroTextBoxClipboard_Click);
-            this.metroTextBoxClipboard.CustomButton.Click += new System.EventHandler(this.customButtonClick);
+            this.metroTextBoxClipboard.CustomButton.Click += new System.EventHandler(this.metroTextBoxClipboard_Click);
             // 
             // metroPanel4
             // 
