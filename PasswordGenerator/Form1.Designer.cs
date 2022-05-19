@@ -138,7 +138,6 @@
             this.metroTextBoxClipboard.UseSelectable = true;
             this.metroTextBoxClipboard.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBoxClipboard.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            this.metroTextBoxClipboard.CustomButton.Click += new System.EventHandler(this.metroTextBoxClipboard_Click);
             // 
             // metroPanel4
             // 
@@ -159,7 +158,7 @@
             // 
             // flowLayoutPanel2
             // 
-            this.flowLayoutPanel2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.flowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel2.Controls.Add(this.metroTextBoxLength);
             this.flowLayoutPanel2.Controls.Add(this.metroCheckBoxUppercase);
             this.flowLayoutPanel2.Controls.Add(this.metroCheckBoxLowercase);
